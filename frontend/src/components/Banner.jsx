@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from "../../public/bannerr.avif"
+import banner from "../../public/book.avif"
 
 function Banner() {
   return (

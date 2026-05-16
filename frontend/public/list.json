@@ -1,0 +1,126 @@
+[
+
+    {
+"id":1,
+"name":"Story Book",
+"title":"Whether you’re looking for a quick escape or a deep dive into a new subject, we have something for every reader.",
+"price":0,
+"category":"Free",
+"image":"https://unsplash.com/photos/a-stack-of-books-f80d5O78Bmo"
+
+    },
+
+{
+"id":2,
+"name":"Comedy Book",
+"title":"Whether you’re looking for a quick escape or a deep dive into a new subject, we have something for every reader.",
+"price":100,
+"category":"Entertainment",
+"image":"https://unsplash.com/photos/a-stack-of-books-f80d5O78Bmo"
+
+
+    },
+    {
+"id":3,
+"name":"Sports Book",
+"title":"Whether you’re looking for a quick escape or a deep dive into a new subject, we have something for every reader.",
+"price":50,
+"category":"Football",
+"image":"https://unsplash.com/photos/a-stack-of-books-f80d5O78Bmo"
+
+
+    },
+    {
+"id":4,
+"name":"Music Book",
+"title":"Whether you’re looking for a quick escape or a deep dive into a new subject, we have something for every reader.",
+"price":80,
+"category":"song",
+"image":"https://unsplash.com/photos/a-stack-of-books-f80d5O78Bmo"
+
+
+    },
+    {
+"id":5,
+"name":"Comics Book",
+"title":"Whether you’re looking for a quick escape or a deep dive into a new subject, we have something for every reader.",
+"price":1500,
+"category":"Manhwa",
+"image":"https://unsplash.com/photos/a-stack-of-books-f80d5O78Bmo"
+
+
+    },
+    {
+"id":6,
+"name":"Story Book",
+"title":"Whether you’re looking for a quick escape or a deep dive into a new subject, we have something for every reader.",
+"price":300,
+"category":"Love",
+"image":"https://unsplash.com/photos/a-stack-of-books-f80d5O78Bmo"
+
+
+    },
+    {
+"id":7,
+"name":"Food Book",
+"title":"Whether you’re looking for a quick escape or a deep dive into a new subject, we have something for every reader.",
+"price":200,
+"category":"Food",
+"image":"https://unsplash.com/photos/a-stack-of-books-f80d5O78Bmo"
+
+
+    },
+    {
+"id":8,
+"name":"Story Book",
+"title":"Whether you’re looking for a quick escape or a deep dive into a new subject, we have something for every reader.",
+"price":0,
+"category":"Free",
+"image":"https://unsplash.com/photos/a-stack-of-books-f80d5O78Bmo"
+
+
+    },
+    {
+"id":9,
+"name":"Story Book",
+"title":"Whether you’re looking for a quick escape or a deep dive into a new subject, we have something for every reader.",
+"price":0,
+"category":"Free",
+"image":"https://unsplash.com/photos/a-stack-of-books-f80d5O78Bmo"
+
+
+    },
+    {
+"id":10,
+"name":"Story Book",
+"title":"Whether you’re looking for a quick escape or a deep dive into a new subject, we have something for every reader.",
+"price":0,
+"category":"Free",
+"image":"https://unsplash.com/photos/a-stack-of-books-f80d5O78Bmo"
+
+
+    },
+    {
+"id":11,
+"name":"Story Book",
+"title":"Whether you’re looking for a quick escape or a deep dive into a new subject, we have something for every reader.",
+"price":0,
+"category":"Free",
+"image":"https://unsplash.com/photos/a-stack-of-books-f80d5O78Bmo"
+
+
+    },
+    {
+"id":12,
+"name":"Story Book",
+"title":"Whether you’re looking for a quick escape or a deep dive into a new subject, we have something for every reader.",
+"price":0,
+"category":"Free",
+"image":"https://unsplash.com/photos/a-stack-of-books-f80d5O78Bmo"
+
+
+
+    }
+        
+
+]
