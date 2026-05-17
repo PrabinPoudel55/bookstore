@@ -6,8 +6,8 @@ import React from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-
-import list from "../../public/list.json";
+import Cards from "./Cards";
+import list from "../assets/list.json";
 
 
 function Freebook() {
@@ -17,11 +17,12 @@ function Freebook() {
   return(
   <>
   <div className="max-w-screen-2xl container md:mx-auto px-20">
-    <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
+    <div><h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
     <p>
         Whether you’re looking for a quick escape or a deep dive into a new subject, we have something for every reader.
     </p>
-  </div>
+    </div>
+  
   <div>
   <Swiper
    
@@ -40,40 +41,20 @@ function Freebook() {
   }}
 >
   
-    <SwiperSlide>
-      <h3>1</h3>
-    </SwiperSlide>
+{filterData.map((item) => (
 
-    <SwiperSlide>
-      <h3>2</h3>
-    </SwiperSlide>
+  <SwiperSlide key={item.id}>
 
-    <SwiperSlide>
-      <h3>3</h3>
-    </SwiperSlide>
+    <Cards item={item} />
 
-    <SwiperSlide>
-      <h3>4</h3>
-    </SwiperSlide>
+  </SwiperSlide>
 
-    <SwiperSlide>
-      <h3>5</h3>
-    </SwiperSlide>
+))}
 
-    <SwiperSlide>
-      <h3>6</h3>
-    </SwiperSlide>
-
-    <SwiperSlide>
-      <h3>7</h3>
-    </SwiperSlide>
-
-    <SwiperSlide>
-      <h3>8</h3>
-    </SwiperSlide>
+    
   </Swiper>
 </div>
-  
+  </div>
   </>
   );
 }
