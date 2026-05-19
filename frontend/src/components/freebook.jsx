@@ -9,7 +9,6 @@ import "swiper/css";
 import Cards from "./Cards";
 import list from "../assets/list.json";
 
-
 function Freebook() {
     const filterData= list.filter((data) => data.category ==="Free");
 
