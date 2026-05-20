@@ -6,12 +6,13 @@ import Courses from "./courses/Courses";
 function App() {
   return (
   <>
-  {/* <Home />
-  <Course /> */}
-<Routes>
+
+<div className="dark:bg-slate-900 dark:text-white">
+  <Routes>
 <Route path="/" element={<Home />} />
 <Route path="/course" element={<Courses />} />
   </Routes>
+</div>
 
   </>
   );
