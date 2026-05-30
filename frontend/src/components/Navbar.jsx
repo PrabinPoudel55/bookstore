@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-
+import Login from './Login';
+import { Link } from 'react-router-dom';
 function Navbar() {
 
   const [theme,setTheme]=useState(localStorage.getItem("theme")? localStorage.getItem("theme"):"light")
@@ -112,7 +113,10 @@ useEffect(()=>{
   </svg>
 </label>
   <div className="">
-    <a className="bg-black text-white px-4 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer">Login</a>
+    <a className="bg-black text-white px-4 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
+    onClick={()=> document.getElementById("my_modal_3").showModal()}>
+      Login</a>
+      <Login />
   </div>
 </div>
 </div>
